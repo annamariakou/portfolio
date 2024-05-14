@@ -1,5 +1,61 @@
 
-li, .name { 
+li, .name, .cv{ 
     color: #AD88C6; 
+    font-family: var(--font-prompt);
     font-weight: 400;
+ 
+}
+
+.name { 
+    display: flex;
+    margin: auto;
+}
+.logo {
+    display: flex;
+    margin: auto;
+}
+
+.logoName { 
+display: flex;
+justify-content: flex-start;
+
+
+}
+
+.navigation {
+    justify-content: center;
+    margin: auto;
+}
+
+.mainNav ul, .mainNavInactive ul {
+    list-style-type: none;
+    display: flex;
+    gap: 100px;
+}
+
+
+
+.mainNav.active ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+header {
+    display: flex;
+    margin: auto;
+  
+}
+
+.cv {
+    display: flex;
+    margin: auto; 
+    border: 1px solid #AD88C6;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.hamburgerImg, .hamburgerImgClosed {
+    opacity: 100%;
+    border: none;
+    
 }

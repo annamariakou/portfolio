@@ -1,4 +1,5 @@
 
+
 li, .name, .cv{ 
     color: #AD88C6; 
     font-family: var(--font-prompt);
@@ -57,5 +58,14 @@ header {
 .hamburgerImg, .hamburgerImgClosed {
     opacity: 100%;
     border: none;
+    height: 30px;
+    width: 30px;
     
 }
+
+.menu { 
+    background: transparent;
+    border: none;
+    display: none;
+}
+

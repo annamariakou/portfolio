@@ -47,6 +47,7 @@ export default function Nav() {
           </div>
         </nav>
         <p className="cv">My CV</p>
+        
       </header>
     ); 
   }

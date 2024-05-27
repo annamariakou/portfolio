@@ -7,7 +7,7 @@ header {
 }
 
 
-li, .name, .cv{ 
+li, .name, .cv, .cvTwo{ 
     color: #AD88C6; 
     font-family: var(--font-prompt);
     font-weight: 400;
@@ -35,7 +35,6 @@ margin-left: 50px;
 
 .navigation {
     justify-content: center;
-    margin: auto;
 }
 
 .mainNav ul, .mainNavInactive ul {
@@ -76,14 +75,33 @@ header {
     display: none;
 }
 
-@media (max-width: 768px) {
-   
-.cv {
+.cvTwo {
     display: none;
+
 }
+
+@media (max-width: 768px) {
+
+    .cvTwo {
+    border: 1px solid #AD88C6;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+
+    }
+
+    .cv {
+        display: none;;
+    }
 
 .menu {
     display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
 }
 
 .mainNav.active ul {
@@ -94,5 +112,10 @@ header {
   .mainNavInactive ul {
     display: none;
 }
+
+.logoName { 
+    margin-left: 0px;
+    
+    }
 
 }

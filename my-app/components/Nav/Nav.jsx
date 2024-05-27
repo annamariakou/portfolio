@@ -29,6 +29,7 @@ export default function Nav() {
           className="logo"
         /> <span className="name text2">Annamaria</span>
         </div>
+        <p className="cvTwo">My CV</p>
         <nav className="navigation">
            <button className="menu" onClick={toggleActiveClass} >
             {isActive ? (

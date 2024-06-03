@@ -88,7 +88,8 @@ header {
     border-radius: 10px;
     padding: 5px;
     display: flex;
-
+    height: calc(15% - 10px); 
+    box-sizing: border-box;
     }
 
     .cv {

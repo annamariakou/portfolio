@@ -4,13 +4,13 @@ h1{
 
   .typewriter {
     font-family: var(--font-shrikhand);
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
+    overflow: hidden; 
+    border-right: .15em solid #AD88C6; 
+    white-space: nowrap;
+    margin: 0 auto; 
+    letter-spacing: .15em; 
     animation: 
-      typing 3.5s steps(40, end),
+      typing 2.5s steps(18, end),
       blink-caret .75s step-end infinite;
   }
 
@@ -22,5 +22,30 @@ h1{
 
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: orange; }
+    50% { border-color: #AD88C6; }
+  }
+
+  .typewriter-container {
+    max-width: 450px; 
+   
+  }
+
+  .mainContainer {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 50px;
+  }
+
+  .me { 
+    border-radius: 20%;
+    transition: 1s ease;
+  
+  }
+
+  .me:hover {
+    -webkit-transform: rotateZ(10deg);
+    -ms-transform: rotateZ(10deg);
+    transform: rotateZ(10deg);
+    transition: 1s ease;
   }

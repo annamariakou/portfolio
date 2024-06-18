@@ -20,6 +20,10 @@ export default function Projects() {
                    src={SoCBrainScreenshot}
                    alt="SocBrain"
                    />
+                   <div className="caption">
+                   <p>GitHub Repo</p>
+                   <p>Live link</p>
+                   </div>
                 </article>
                 <article className="card">
                    <p>Weather App</p>
@@ -28,6 +32,10 @@ export default function Projects() {
                    src={WeatherAppScreenshot}
                    alt="WeatherApp"
                    />
+                   <div className="caption">
+                    <p>GitHub Repo</p>
+                    <p>Live link</p>
+                    </div>
                 </article>
                 <article className="card">
                    <p>Plant Swap</p>
@@ -36,6 +44,10 @@ export default function Projects() {
                    src={PlantSwapScreenshot}
                    alt="Plant Swap"
                    />
+                   <div className="caption">
+                    <p>GitHub Repo</p>
+                    <p>Under Construction</p>
+                    </div>
                 </article>
     </section>
 </div>

@@ -1,0 +1,14 @@
+.projectsTitle {
+    color: #AD88C6;
+    font-weight: 400;
+}
+
+.projectsContainer {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+ }

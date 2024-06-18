@@ -10,13 +10,13 @@ export default function Projects() {
 
 <section className="cards">
 <article className="card">
-                   <p>content for card one</p>
+                   <p>SoCBrain</p>
                 </article>
                 <article className="card">
-                   <p>content for card one</p>
+                   <p>Weather App</p>
                 </article>
                 <article className="card">
-                   <p>content for card one</p>
+                   <p>Plant Sawp</p>
                 </article>
     </section>
 </div>

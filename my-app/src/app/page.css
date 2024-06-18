@@ -53,8 +53,14 @@ h1{
   .about {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
   }
+
+.socials {
+  display: flex;
+
+}
 
   @media (max-width: 768px) {
 

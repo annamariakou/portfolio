@@ -3,9 +3,9 @@ import "./page.css";
 import Image from "next/image";
 import AK from "/Images/AK.png";
 import Projects from "/components/Projects/Projects.jsx";
-import Github from "/Images/Github.png";
-import Linkedin from "/Images/Linkedin.png";
-import Twitter from "/Images/Twitter.png";
+import Github from "/Images/github.png";
+import Linkedin from "/Images/linkedin.png";
+import Twitter from "/Images/twitter.png";
 
 export default function Home() {
   return (

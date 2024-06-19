@@ -1,6 +1,11 @@
+.projectsContainer {
+  padding-top: 100px;
+}
+
 .projectsTitle {
     color: #AD88C6;
     font-weight: 400;
+    margin-bottom: 0;
 }
 
 .projectName {

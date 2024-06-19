@@ -7,8 +7,8 @@ import WeatherAppScreenshot from "/Images/WeatherAppScreenshot.png";
 
 export default function Projects() {
     return (
-        <div className="projectsContainer">
-<h2 className="projectsTitle" id="Projects">
+        <div className="projectsContainer" id="Projects">
+<h2 className="projectsTitle" >
     PROJECTS
 </h2>
 

@@ -32,7 +32,7 @@ export default function Nav() {
         /> <span className="name text2">Annamaria</span>
         </div>
         <p className="cvTwo"><a href="/CV/AnnamariaCV.pdf" target="_blank">My CV</a></p>
-        <nav className="navigation" id="Annamaria">
+        <nav className="navigation">
            <button className="menu" onClick={toggleActiveClass} >
             {isActive ? (
               <Image className={`hamburgerImgClosed ${isActive ? 'active' : ''}`} src={CloseMenu} alt="navclosed"></Image>  

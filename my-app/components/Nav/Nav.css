@@ -4,6 +4,10 @@ header {
     justify-content: space-between;
     width: 100%;
     margin: auto;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: white;
 }
 
 

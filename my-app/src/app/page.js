@@ -11,7 +11,7 @@ import twitter from "/Images/twitter.png";
 
 export default function Home() {
   return (
-    <main>
+    <main id="Annamaria">
       <div className="mainContainer">
         <div className="about">
           <div className="typewriter-container">

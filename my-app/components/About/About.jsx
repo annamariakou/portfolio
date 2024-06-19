@@ -5,9 +5,9 @@ import email from "/Images/email.png";
 
 export default function About() {
     return (
-      <div className="container">
+      <div className="aboutContainer" id="About">
         <div className="aboutAK">
-          <h2 className="aboutTitle" id="About">ABOUT</h2>
+          <h2 className="aboutTitle" >ABOUT</h2>
           <div className="paragraph">
             <p>After years of working in climate tech marketing, I finally took the leap of faith to pursue a career in software development. What began as a self-taught journey, I soon got accepted into the School of Code amongst hundreds of candidates to follow my childhood dream.</p>
             <p>I&apos;m a passionate learner ready to deep dive into any project.</p>

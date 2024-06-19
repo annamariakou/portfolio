@@ -44,6 +44,7 @@ export default function Nav() {
               <li className="home">HOME</li>
               <li className="projects">PROJECTS</li>
               <li className="skills">SKILLS</li>
+              <li className="about">ABOUT</li>
               <li className="contact">CONTACT</li>
             </ul>
           </div>

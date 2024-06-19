@@ -7,3 +7,44 @@
     margin-left: 50px;
     margin-right: 50px;
 }
+
+.languages, .frontend, .backend, .design, .testing {
+   font-size: 20px;
+   border-bottom: #AD88C6 3px solid;
+    width: 200px
+
+}
+
+.skillCards {
+    display: flex;
+    justify-content: space-between;
+    
+ }
+
+ .skillCard 
+ { 
+    border: #AD88C6 3px solid;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px; 
+    height: 315px;
+ }
+
+
+ @media(max-width: 768px) {
+
+    .skillCards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skillCard {
+        width: auto;
+        margin-bottom: 20px; 
+    }
+
+    .skillsTitle {
+        text-align: center;
+    }
+
+ }

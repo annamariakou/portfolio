@@ -55,3 +55,40 @@
     font-size: 14px;
     padding: 8px;
   }
+
+  @media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: auto;
+        margin-bottom: 20px; 
+    }
+
+    .imgWrap {
+        width: auto; 
+    }
+
+   
+
+    .caption {
+        flex-direction: row; 
+        padding: 10px 0;
+    }
+
+    .caption p {
+        margin-bottom: 10px; 
+    }
+
+    .projectsTitle{
+        text-align: center; 
+    }
+
+    .projectName {
+        text-align: center; /* Centers the project name text */
+        width: 100%; /* Ensures the text is centered within the full width of its container */
+    }
+
+}

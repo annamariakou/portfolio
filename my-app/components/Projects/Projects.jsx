@@ -14,7 +14,7 @@ export default function Projects() {
 
 <section className="cards">
 <article className="card">
-                   <p>SoCBrain</p>
+                   <p className="projectName">SoCBrain</p>
                    <div className="imgWrap">
                    <Image
                    className="images"
@@ -27,11 +27,11 @@ export default function Projects() {
                    </div>
                    <div className="caption">
                    <p>GitHub Repo</p>
-                   <p>Live link</p>
+                   <p>Live Link</p>
                    </div>
                 </article>
                 <article className="card">
-                   <p>Weather App</p>
+                   <p className="projectName">Weather App</p>
                    <div className="imgWrap">
                    <Image
                    className="images"
@@ -44,11 +44,11 @@ export default function Projects() {
                    </div>
                    <div className="caption">
                     <p>GitHub Repo</p>
-                    <p>Live link</p>
+                    <p>Live Link</p>
                     </div>
                 </article>
                 <article className="card">
-                   <p>Plant Swap</p>
+                   <p  className="projectName">Plant Swap</p>
                    <div className="imgWrap">
                    <Image
                    className="images"
@@ -61,7 +61,7 @@ export default function Projects() {
                    </div>
                    <div className="caption">
                     <p>GitHub Repo</p>
-                    <p>🛠️ In progress 🛠️</p>
+                    <p>🛠️ In Progress 🛠️</p>
                     </div>
                 </article>
     </section>

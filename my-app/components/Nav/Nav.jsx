@@ -41,10 +41,10 @@ export default function Nav() {
   
           <div className={`mainNav ${isActive ? 'active' : 'mainNavInactive'}`}>
             <ul>
-              <li>HOME</li>
-              <li>PROJECTS</li>
-              <li>SKILLS</li>
-              <li>CONTACT</li>
+              <li className="home">HOME</li>
+              <li className="projects">PROJECTS</li>
+              <li className="skills">SKILLS</li>
+              <li className="contact">CONTACT</li>
             </ul>
           </div>
         </nav>

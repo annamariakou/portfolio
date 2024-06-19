@@ -3,6 +3,7 @@ import "./page.css";
 import Image from "next/image";
 import AK from "/Images/AK.png";
 import Projects from "/components/Projects/Projects.jsx";
+import Skills from "/components/Skills/Skills.jsx";
 import github from "/Images/github.png";
 import linkedin from "/Images/linkedin.png";
 import twitter from "/Images/twitter.png";
@@ -40,6 +41,7 @@ export default function Home() {
         />
       </div>
       <Projects />
+      <Skills />
     </main>
   );
 }

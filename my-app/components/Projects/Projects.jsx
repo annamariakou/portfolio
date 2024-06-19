@@ -22,7 +22,7 @@ export default function Projects() {
                    alt="SocBrain"
                    />
                    <div className="overlay">
-                   <div className="text">A slick and engaging quiz experience for the School of Code bootcampers to test their technical knowledge. It also allows SOC coaches to track technical progress via a user friendly dashboard view and allow analysation of data to improve the bootcampers' learning experience.</div>
+                <div className="text">A slick and engaging quiz experience for the School of Code bootcampers to test their technical knowledge. It also allows SOC coaches to track technical progress via a user friendly dashboard view and allow analysation of data to improve the bootcampers&apos; learning experience.</div>
                    </div>
                    </div>
                    <div className="caption">

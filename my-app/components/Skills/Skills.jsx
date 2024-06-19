@@ -5,7 +5,7 @@ import "./Skills.css"
 export default function Skills() {
     return (
         <div className="skillsContainer">
-        <h2 className="skillsTitle">SKILLS</h2>
+        <h2 className="skillsTitle" id="Skills">SKILLS</h2>
         <section className="skillCards">
             <article className="skillCard">
         <p className="languages">Languages</p>

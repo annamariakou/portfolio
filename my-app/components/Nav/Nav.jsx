@@ -5,6 +5,8 @@ import Hamburger from "/public/Images/hamburger.png"
 import CloseMenu from "/public/Images/closeMenu.png"
 import Logo from "/public/Images/codePURPLE.png"
 
+import Link from 'next/link';
+
 
 import "./Nav.css"
 
@@ -29,8 +31,8 @@ export default function Nav() {
           className="logo"
         /> <span className="name text2">Annamaria</span>
         </div>
-        <p className="cvTwo">My CV</p>
-        <nav className="navigation">
+        <p className="cvTwo"><a href="/CV/AnnamariaCV.pdf" target="_blank">My CV</a></p>
+        <nav className="navigation" id="Annamaria">
            <button className="menu" onClick={toggleActiveClass} >
             {isActive ? (
               <Image className={`hamburgerImgClosed ${isActive ? 'active' : ''}`} src={CloseMenu} alt="navclosed"></Image>  
@@ -41,15 +43,15 @@ export default function Nav() {
   
           <div className={`mainNav ${isActive ? 'active' : 'mainNavInactive'}`}>
             <ul>
-              <li className="home">HOME</li>
-              <li className="projects">PROJECTS</li>
-              <li className="skills">SKILLS</li>
-              <li className="about">ABOUT</li>
-              <li className="contact">CONTACT</li>
+              <li className="home"><Link href="#Annamaria">HOME</Link></li>
+              <li className="projects"><Link href="#Projects">PROJECTS</Link></li>
+              <li className="skills"><Link href="#Skills">SKILLS</Link></li>
+              <li className="about"><Link href="#About">ABOUT</Link></li>
+              <li className="contact"><Link href="#Contact">CONTACT</Link></li>
             </ul>
           </div>
         </nav>
-        <p className="cv">My CV</p>
+        <p className="cv"><a href="/CV/AnnamariaCV.pdf" target="_blank">My CV</a></p>
       
       </header>
     ); 

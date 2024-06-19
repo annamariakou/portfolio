@@ -1,0 +1,38 @@
+.container, .next { 
+    margin: 0 50px;
+    display: flex;
+  }
+  
+
+.aboutAK {
+    flex-direction: column;
+
+} 
+
+.next {
+    flex-direction: column;
+margin-bottom: 10px;
+}
+
+
+.aboutAK, .next{
+    flex: 1;
+}
+.aboutTitle, .contactTitle {
+    color: #AD88C6;
+    font-weight: 400;
+}
+
+.paragraph { 
+    text-align: justify;
+}
+
+.email {
+display: flex;
+margin-top: 0;
+}
+
+.emailIcon {
+    margin-right: 10px;
+    padding-bottom: 3px;
+}

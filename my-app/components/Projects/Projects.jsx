@@ -26,8 +26,8 @@ export default function Projects() {
                    </div>
                    </div>
                    <div className="caption">
-                   <p><a href="https://github.com/annamariakou/SoCBrain">GitHub Repo </a></p>
-                   <p>Live Link</p>
+                   <p className="projectLink"><a href="https://github.com/annamariakou/SoCBrain" target="_blank" >GitHub Repo </a></p>
+                   <p className="projectLink"><a href="https://socbrain.vercel.app/login" target="_blank">Live Link</a></p>
                    </div>
                 </article>
                 <article className="card">
@@ -43,8 +43,8 @@ export default function Projects() {
                    </div>
                    </div>
                    <div className="caption">
-                    <p><a href="https://github.com/annamariakou/weather-app-">GitHub Repo</a></p>
-                    <p>Live Link</p>
+                    <p className="projectLink"><a href="https://github.com/annamariakou/weather-app-">GitHub Repo</a></p>
+                    <p className="projectLink"><a href="https://shiny-fenglisu-a30b72.netlify.app/" target="_blank">Live Link</a></p>
                     </div>
                 </article>
                 <article className="card">
@@ -60,7 +60,7 @@ export default function Projects() {
                    </div>
                    </div>
                    <div className="caption">
-                    <p><a href="https://github.com/annamariakou/plant-swap-">GitHub Repo</a></p>
+                    <p className="projectLink"><a href="https://github.com/annamariakou/plant-swap-" target="_blank">GitHub Repo</a></p>
                     <p>🛠️ In Progress 🛠️</p>
                     </div>
                 </article>

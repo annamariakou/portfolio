@@ -56,6 +56,16 @@
     padding: 8px;
   }
 
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+
+  .projectLink :hover {
+    color:#AD88C6
+  }
+
   @media (max-width: 768px) {
     .cards {
         flex-direction: column;
@@ -70,6 +80,7 @@
     .imgWrap {
         width: auto; 
     }
+
 
    
 

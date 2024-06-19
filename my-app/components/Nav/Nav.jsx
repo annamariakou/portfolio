@@ -43,6 +43,7 @@ export default function Nav() {
             <ul>
               <li>HOME</li>
               <li>PROJECTS</li>
+              <li>SKILLS</li>
               <li>CONTACT</li>
             </ul>
           </div>

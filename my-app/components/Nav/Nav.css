@@ -34,6 +34,10 @@ padding-bottom: 10px;
 
 }
 
+li a {
+    color: #AD88C6;
+}
+
 .navigation {
     justify-content: center;
 }
@@ -60,6 +64,17 @@ header {
     border-radius: 10px;
     padding: 5px;
     margin-right: 50px;
+}
+
+.cv a {
+    text-decoration: none;
+    color: #AD88C6;
+
+}
+
+.cvTwo a {
+    text-decoration: none;
+    color: #AD88C6;
 }
 
 a{

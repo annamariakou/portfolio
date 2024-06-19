@@ -11,7 +11,7 @@
 .languages, .frontend, .backend, .design, .testing {
    font-size: 20px;
    border-bottom: #AD88C6 3px solid;
-    width: 200px
+    width: 160px
 
 }
 
@@ -26,8 +26,8 @@
     border: #AD88C6 3px solid;
     border-radius: 5px;
     padding: 10px;
-    width: 250px; 
-    height: 315px;
+    width: 225px; 
+    height: 320px;
  }
 
 

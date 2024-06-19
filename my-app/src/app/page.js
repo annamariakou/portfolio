@@ -3,9 +3,9 @@ import "./page.css";
 import Image from "next/image";
 import AK from "/Images/AK.png";
 import Projects from "/components/Projects/Projects.jsx";
-import Github from "/Images/github.png";
-import Linkedin from "/Images/linkedin.png";
-import Twitter from "/Images/twitter.png";
+import github from "/Images/github.png";
+import linkedin from "/Images/linkedin.png";
+import twitter from "/Images/twitter.png";
 
 export default function Home() {
   return (
@@ -15,19 +15,19 @@ export default function Home() {
           <div className="typewriter-container">
             <h1 className="typewriter">Hello, I&apos;m Annamaria</h1>
             <p>
-              // A junior developer with full-stack skills and a passion for
+              A junior developer with full-stack skills and a passion for
               creating technology for good.
             </p>
           </div>
           <div className="socials">
             <a href="https://github.com/annamariakou" target="_blank">
-              <Image className="github" src={Github} alt="Github" />
+              <Image className="github" src={github} alt="Github" />
             </a>
             <a href="https://www.linkedin.com/in/annamariakou/" target="_blank">
-              <Image className="linkedin" src={Linkedin} alt="Github" />
+              <Image className="linkedin" src={linkedin} alt="Github" />
             </a>
             <a href="https://x.com/AnnamariaKou" target="_blank">
-              <Image className="twitter" src={Twitter} alt="Github" />
+              <Image className="twitter" src={twitter} alt="Github" />
             </a>
           </div>
         </div>

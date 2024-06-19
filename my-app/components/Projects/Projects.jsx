@@ -26,7 +26,7 @@ export default function Projects() {
                    </div>
                    </div>
                    <div className="caption">
-                   <p>GitHub Repo</p>
+                   <p><a href="https://github.com/annamariakou/SoCBrain">GitHub Repo </a></p>
                    <p>Live Link</p>
                    </div>
                 </article>
@@ -43,7 +43,7 @@ export default function Projects() {
                    </div>
                    </div>
                    <div className="caption">
-                    <p>GitHub Repo</p>
+                    <p><a href="https://github.com/annamariakou/weather-app-">GitHub Repo</a></p>
                     <p>Live Link</p>
                     </div>
                 </article>
@@ -60,7 +60,7 @@ export default function Projects() {
                    </div>
                    </div>
                    <div className="caption">
-                    <p>GitHub Repo</p>
+                    <p><a href="https://github.com/annamariakou/plant-swap-">GitHub Repo</a></p>
                     <p>🛠️ In Progress 🛠️</p>
                     </div>
                 </article>

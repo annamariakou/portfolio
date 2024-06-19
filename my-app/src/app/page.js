@@ -15,7 +15,7 @@ export default function Home() {
           <div className="typewriter-container">
             <h1 className="typewriter">Hello, I&apos;m Annamaria</h1>
             <p>
-              A junior developer with full-stack skills and a passion for
+              {"//"} A junior developer with full-stack skills and a passion for
               creating technology for good.
             </p>
           </div>

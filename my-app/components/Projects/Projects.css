@@ -87,8 +87,8 @@
     }
 
     .projectName {
-        text-align: center; /* Centers the project name text */
-        width: 100%; /* Ensures the text is centered within the full width of its container */
+        text-align: center; 
+        width: 100%;
     }
 
 }

@@ -1,0 +1,15 @@
+footer{
+    padding-top: 10px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: smaller;
+}
+
+.footerText { 
+   line-height: 0.5;
+}

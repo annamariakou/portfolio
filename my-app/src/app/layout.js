@@ -2,6 +2,7 @@ import { Shrikhand, Prompt } from "next/font/google";
 import "./globals.css";
 
 import Nav from "/components/Nav/Nav.jsx";
+import Footer from "/components/Footer/Footer.jsx";
 
 const font1 = Shrikhand({
   weight: "400",
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
       <body className={`${font1.className} ${font2.className}`}>
         <Nav />
         {children}
+        <Footer />
       </body>
     </html>
   );

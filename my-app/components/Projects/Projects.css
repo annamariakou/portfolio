@@ -67,13 +67,21 @@
 
   a {
     text-decoration: none;
-    color: black;
+    color: white;
   }
 
 
-  .projectLink :hover {
-    color:#AD88C6
-  }
+  
+
+  .projectLink {
+   border-radius: 5px;
+   padding: 5px;
+   background-color:rgba(173, 136, 198, 0.80);
+color: white;
+  } 
+
+
+  
 
   @media (max-width: 768px) {
     .cards {

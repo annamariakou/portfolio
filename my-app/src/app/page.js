@@ -36,8 +36,8 @@ export default function Home() {
         <Image
           className="me"
           src={AK}
-          width={450}
-          height={450}
+          width={420}
+          height={420}
           alt="Annamaria K"
         />
       </div>

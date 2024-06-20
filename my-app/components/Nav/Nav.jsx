@@ -51,7 +51,7 @@ export default function Nav() {
             </ul>
           </div>
         </nav>
-        <p className="cv"><a href="/CV/AnnamariaCV.pdf" target="_blank">My CV</a></p>
+        <div className="cvPosition"><p className="cv"><a href="/CV/AnnamariaCV.pdf" target="_blank">My CV</a></p></div>
       
       </header>
     ); 

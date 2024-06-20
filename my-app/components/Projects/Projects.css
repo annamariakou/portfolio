@@ -87,8 +87,45 @@
     color: white;
   }
 
-
+  .tooltip{
+    visibility: hidden;
+    position: absolute;
+    z-index: 2;
+    width: 290px;
+    color: white;
+    font-size: 14px;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+  }
   
+  .tooltip::before {
+    content: "";
+    position: absolute;
+    transform: rotate(45deg);
+    background-color: #000000;
+    padding: 5px;
+    z-index: 1;
+  }
+
+  #gitWrapper:hover .tooltip {
+    visibility: visible;
+  }
+
+  #top {
+    top: 25px;
+  left: -40%;
+  }
+  
+  #top::before {
+    top: -5%;
+  left: 23%;
+  }
+  
+  #gitWrapper {
+    position: relative;
+    display: inline-block;
+  }
 
   .projectLink {
    border-radius: 5px;
@@ -116,8 +153,9 @@ color: white;
         width: auto; 
     }
 
-
-   
+   .tooltip {
+    width: 230px;
+   }
 
     .caption {
         flex-direction: row; 

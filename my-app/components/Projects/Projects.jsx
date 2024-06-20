@@ -26,8 +26,8 @@ export default function Projects() {
                    </div>
                    </div>
                    <div className="caption">
-                   <p className="projectLink"><a href="https://github.com/annamariakou/SoCBrain" target="_blank" >GitHub Repo </a></p>
-                   <p className="projectLink"><a href="https://socbrain.vercel.app/login" target="_blank">Live Link</a></p>
+                   <p className="projectLink" ><a href="https://github.com/annamariakou/SoCBrain" target="_blank" >GitHub Repo</a></p>
+                   <p className="projectLink" id="gitWrapper"><a href="https://socbrain.vercel.app/login" target="_blank">Live Link<span class="tooltip" id="top">Login: bootcamper@bootcamper.com PW: 123456</span> </a></p>
                    </div>
                 </article>
                 <article className="card">

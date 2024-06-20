@@ -10,7 +10,7 @@ export default function Skills() {
             <article className="skillCard">
         <p className="languages">Languages</p>
         <p>Javascript</p>
-        <p>Typescipt</p>
+        <p>Typescript</p>
         <p>CSS</p>
         </article>
         <article className="skillCard">

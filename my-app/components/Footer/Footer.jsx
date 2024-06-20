@@ -7,7 +7,7 @@ export default function Footer() {
     <footer>
       <div className="footer">
         <div className="footerText">
-        <p>Hosted on netlify. Built with next.js. Open-sourced on github.</p>
+        <p>Hosted on netlify. Built with next.js. Open-sourced on <a href="https://github.com/annamariakou/portfolio" target="_blank" className="githubLink">github</a>.</p>
         <p >© 2024 By Annamaria</p>
         </div>
       </div>

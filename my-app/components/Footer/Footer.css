@@ -13,3 +13,7 @@ footer{
 .footerText { 
    line-height: 0.5;
 }
+
+.githubLink {
+    color: #AD88C6;
+}

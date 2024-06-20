@@ -43,7 +43,7 @@ export default function Projects() {
                    </div>
                    </div>
                    <div className="caption">
-                    <p className="projectLink"><a href="https://github.com/annamariakou/weather-app-">GitHub Repo</a></p>
+                    <p className="projectLink"><a href="https://github.com/annamariakou/weather-app-" target="_blank">GitHub Repo</a></p>
                     <p className="projectLink"><a href="https://shiny-fenglisu-a30b72.netlify.app/" target="_blank">Live Link</a></p>
                     </div>
                 </article>

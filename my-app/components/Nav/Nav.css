@@ -129,14 +129,18 @@ cursor: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/
     display: flex;
     height: calc(15% - 10px); 
     box-sizing: border-box;
+    margin-left: 250px;
+    margin-top: 2px;
     }
 
     .cv {
-        display: none;;
+        display: none;
     }
 
 .menu {
     display: flex;
+    margin-top: 3px;
+    margin-left: 180px;
 }
 
 .header {
@@ -156,6 +160,8 @@ cursor: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/
 
 .logoName { 
     margin-left: 0px;
+    position: fixed;
+    margin-bottom: -7px
     
     }
 

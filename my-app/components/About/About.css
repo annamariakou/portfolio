@@ -41,3 +41,9 @@ margin-top: 0;
 .linkedinLink {
     color: #AD88C6;
 }
+
+@media (max-width: 768px) {
+    .aboutContainer, .next { 
+        flex-direction: column;
+    }
+}

@@ -17,3 +17,13 @@ footer{
 .githubLink {
     color: #AD88C6;
 }
+
+@media (max-width: 768px) {
+
+    .footer {
+        font-size: x-small;
+    }
+    .footerText { 
+        line-height: 1;
+     }
+}

@@ -46,4 +46,9 @@ margin-top: 0;
     .aboutContainer, .next { 
         flex-direction: column;
     }
+
+    .next {
+        margin: 0;
+    }
+
 }

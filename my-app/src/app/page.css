@@ -79,6 +79,31 @@ h1{
       margin-bottom: 30px; 
     }
 
+.me { 
+  width: 370px;
+  height: 370px;
+}
 
+.typewriter-container {
+  max-width: 450px; 
+}
 
   }
+
+  @media (max-width: 500px) {
+
+    .me { 
+      width: 300px;
+      height: 300px;
+    }
+  
+    .typewriter-container {
+      max-width: 360px;
+    }
+    
+    .typewriter {
+      font-size: 1.5em;
+    }
+}
+
+  

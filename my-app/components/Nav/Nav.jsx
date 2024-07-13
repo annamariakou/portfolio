@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image";
-import Hamburger from "/public/Images/hamburger.png"
+import Hamburger from "/public/Images/penguin.png"
 import CloseMenu from "/public/Images/closeMenu.png"
 import Logo from "/public/Images/codePURPLE.png"
 

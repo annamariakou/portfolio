@@ -19,6 +19,10 @@ export default function Nav() {
     const toggleActiveClass = () => {
       setIsActive(!isActive);
     };
+
+    const closeMenuOnLinkClick = () => {
+      setIsActive(false); 
+  };
   
     return (
       <header> 
@@ -43,11 +47,11 @@ export default function Nav() {
   
           <div className={`mainNav ${isActive ? 'active' : 'mainNavInactive'}`}>
             <ul>
-              <li className="home"><Link href="#Annamaria">HOME</Link></li>
-              <li className="projects"><Link href="#Projects">PROJECTS</Link></li>
-              <li className="skills"><Link href="#Skills">SKILLS</Link></li>
-              <li className="about"><Link href="#About">ABOUT</Link></li>
-              <li className="contact"><Link href="#Contact">CONTACT</Link></li>
+              <li className="home" onClick={closeMenuOnLinkClick}><Link href="#Annamaria" >HOME</Link></li>
+              <li className="projects" onClick={closeMenuOnLinkClick}><Link href="#Projects">PROJECTS</Link></li>
+              <li className="skills" onClick={closeMenuOnLinkClick}><Link href="#Skills">SKILLS</Link></li>
+              <li className="about" onClick={closeMenuOnLinkClick}><Link href="#About">ABOUT</Link></li>
+              <li className="contact" onClick={closeMenuOnLinkClick}><Link href="#Contact">CONTACT</Link></li>
             </ul>
           </div>
         </nav>

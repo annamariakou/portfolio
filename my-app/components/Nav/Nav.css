@@ -165,12 +165,21 @@ cursor: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/
     
     }
 
+
 }
 
 
 @media (max-width: 500px) {
     .menu {
-        margin-left: 0; /* Adjust as needed */
+        margin-left: 0; 
+    }
+
+    .hamburgerImg:hover {
+        cursor: pointer;
+    }
+
+    .hamburgerImgClosed:hover {
+        cursor: pointer;
     }
 
     .cvTwo {
